@@ -1,27 +1,33 @@
 export const HeaderTop = () => {
     return (
-        <div className="bg-[#da002b] w-full">
-            <div className="container flex flex-row justify-between items-center mx-auto py-2.5" >
-                <div  style={{height:"50px"}} className="flex flex-row bg-[#f8fafc] py-1.5 px-3 rounded-md items-center">
-                    <p className="font-bold text-2xl">MEDIAPARK</p>
-                </div>
-                <div  style={{height:"50px"}}className="flex flex-row bg-[#f8fafc] p-1.5 rounded-md items-center">
-                    <p className="font-bold text-2xl ">Каталог</p>
-                </div>
-                <div className="flex flex-row items-center space-x-4">
-                    <input style={{height:"50px",width: "700px"}} className="rounded-md mr-1" placeholder={'search'}/>
-                    <button style={{height:"50px"}} className="rounded-md px-3 border border-slate-300 hover:border-indigo-300">Search</button>
-                </div>
-                <div className="flex flex-row items-center text-white">
-                    <div className="flex flex-col  p-1 mr-4 rounded-md ">
-                        <p className="text-sm font-normal">Вход/</p>
-                        <p className="text-sm font-normal">Регистрация</p>
-                    </div>
-                    <div className="flex flex-col  p-1 mr-4 rounded-md">
-                        <p className="text-sm font-normal">Корзина/</p>
-                        <p className="text-sm font-normal">Оформления заказа</p>
-                    </div>
-                    <p className="font-bold text-xl">(90) 653 53 07</p>
+        <div className="w-full border-b-[0.5px] border-slate-200 border-solid">
+            <div className="container-xl flex flex-row justify-between items-center mx-auto">
+                <ul className="flex flex-row font-sans">
+                    <li className="p-[10px] text-[15-px] bg-[#b91c1c] text-white font-semibold">
+                        <a href="#">Скидки до 40%</a>
+                    </li>
+                    <li className="p-[10px] text-[15-px] bg-orange-400 text-white font-semibold">
+                        <a href="#">0% рассрочка</a>
+                    </li>
+                    <li className="p-[10px] text-[15-px]">
+                        <a href="#">Статус рассрочки</a>
+                    </li>
+                    <li className="p-[10px] text-[15-px]">
+                        <a href="#">Cashback</a>
+                    </li>
+                    <li className="p-[10px] text-[15-px]">
+                        <a href="#">Samsung</a>
+                    </li>
+                    <li className="p-[10px] text-[15-px]">
+                        <a href="#">Xiaomi</a>
+                    </li>
+                    <li className="p-[10px] text-[15-px]">
+                        <a href="#">Адрес магазинов</a>
+                    </li>
+
+                </ul>
+                <div className="p-[10px] border-l-[0.5px] border-slate-200 border-solid">
+                    <p className="text-[15-px]">Рус</p>
                 </div>
             </div>
         </div>
